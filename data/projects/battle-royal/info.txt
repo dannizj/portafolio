@@ -1,0 +1,20 @@
+title_es: Battle Royal
+title_en: Battle Royal
+
+engine: Unreal Engine
+language: C++
+status_es: Completado
+status_en: Completed
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:
+download: https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view
+
+short_es: Battle royale estilo PUBG con sistema de combate completo y física realista.
+short_en: PUBG-style battle royale with full combat system and realistic physics.
+
+tools: Unreal Engine, C++, Multiplayer, Physics
+
+features_es: PUBG-style Battle Royale, High-level Technical Showcase, Fully-featured Combat System, Gunfights, Collisions, Realistic Physics
+features_en: PUBG-style Battle Royale, High-level Technical Showcase, Fully-featured Combat System, Gunfights, Collisions, Realistic Physics

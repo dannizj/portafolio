@@ -1,0 +1,20 @@
+title_es: Guardianes de los Animales
+title_en: Guardians of the Animals
+
+engine: Unity
+language: C#
+status_es: Completado
+status_en: Completed
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:
+download: https://nemorisgames.com/portfolio/guardians-of-the-animals/
+
+short_es: Juego educativo y divertido para niños de 8-12 años sobre el medio ambiente.
+short_en: Educational and fun game for kids 8-12 about the environment.
+
+tools: Unity, C#, Educational, Gameplay Programming
+
+features_es: Educational and Fun Gameplay (Kids 8-12), Explore Urban Rural and Wilderness, Interactive Exploration and Discovery
+features_en: Educational and Fun Gameplay (Kids 8-12), Explore Urban Rural and Wilderness, Interactive Exploration and Discovery

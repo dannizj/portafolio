@@ -1,0 +1,30 @@
+# ============================================================
+# PROFILE.TXT  -  Edita tu información personal aquí
+# Formato:  clave: valor
+# Textos bilingües usan sufijo _es / _en
+# Listas (skills) van coma-separadas en UNA línea
+# ============================================================
+
+name: Daniel Jimenez
+
+role_es: Desarrollador de Videojuegos y Programador
+role_en: Video Game Developer & Programmer
+
+tagline_es: 6+ años creando juegos con IA avanzada en Unity y Unreal
+tagline_en: 6+ years building smart AI-driven games in Unity & Unreal
+
+experience: 6
+
+location: Remote / Latam
+
+bio_es: Soy desarrollador de videojuegos con 6 años de experiencia programando gameplay e IA. Me especializo en sistemas de IA (GOAP, árboles de comportamiento, pathfinding, percepción) y en construir experiencias pulidas en Unity y Unreal Engine. He llevado proyectos desde el prototipo hasta build jugable, incluyendo multijugador y VR.
+bio_en: I'm a video game developer with 6 years of experience programming gameplay and AI. I specialize in AI systems (GOAP, behaviour trees, pathfinding, perception) and building polished experiences in Unity and Unreal Engine. I've taken projects from prototype to playable build, including multiplayer and VR.
+
+email: dannizj03@gmail.com
+linkedin: https://www.linkedin.com/in/dannizj/
+cv: https://drive.google.com/file/d/1WX8QneXkC7NXGiHk3xaKx9m0B0w-3XnC/view
+
+# Ruta opcional a tu foto/avatar (deja vacío para usar placeholder)
+avatar:
+
+skills: Unity, C#, Unreal Engine, C++, AI, GOAP, Behaviour Trees, Pathfinding, Perception Systems, Multiplayer, Photon PUN2, VR, Gameplay Programming

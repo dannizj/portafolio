@@ -1,0 +1,20 @@
+title_es: Covid Attack
+title_en: Covid Attack
+
+engine: Unity
+language: C#
+status_es: Completado
+status_en: Completed
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:
+download: https://danni-zj.itch.io/covid-attack
+
+short_es: Plataformas de acción 2D para frenar la pandemia saltando y desinfectando.
+short_en: 2D action-platformer to stop the pandemic by jumping and disinfecting.
+
+tools: Unity, C#, 2D, Gameplay Programming
+
+features_es: 100% Developed by Me, 2D Action-Platformer Adventure, Enter the Jungle to Stop the Pandemic, Jump Dodge and Disinfect
+features_en: 100% Developed by Me, 2D Action-Platformer Adventure, Enter the Jungle to Stop the Pandemic, Jump Dodge and Disinfect

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dannizj.github.io/portafolio/sitemap.xml

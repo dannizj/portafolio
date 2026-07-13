@@ -1,0 +1,20 @@
+title_es: Dapper-Dasher
+title_en: Dapper-Dasher
+
+engine: C++
+language: C++
+status_es: Completado
+status_en: Completed
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:
+download: https://drive.google.com/file/d/1IWenY_ajp4eajOUP54OsfcPAC6Q3Rdxf/view
+
+short_es: Juego de supervivencia por oleadas construido 100% en C++.
+short_en: Wave-based survival game built 100% in C++.
+
+tools: C++, Gameplay Programming, AI
+
+features_es: Built 100% in C++, Wave-based Survival Gameplay, Enemy AI with Smart Tracking
+features_en: Built 100% in C++, Wave-based Survival Gameplay, Enemy AI with Smart Tracking

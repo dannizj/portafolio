@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daniel Jimenez — Video Game Developer & Programmer</title>
+  <meta name="description" content="Portafolio de Daniel Jimenez: desarrollador de videojuegos y programador con IA avanzada en Unity y Unreal Engine. Proyectos, tecnologias y trailers." />
+  <meta name="author" content="Daniel Jimenez" />
+  <meta name="theme-color" content="#0e141b" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Daniel Jimenez — Video Game Developer" />
+  <meta property="og:description" content="IA avanzada, gameplay y multijugador en Unity y Unreal Engine." />
+  <meta property="og:image" content="assets/placeholder.svg" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/placeholder.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Saltar al contenido</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#hero">
+        <span class="brand-logo" aria-hidden="true">▮▮▮</span>
+        <span class="brand-name" id="brandName">Danni Zj</span>
+      </a>
+      <nav class="main-nav" aria-label="Principal">
+        <a href="#about" data-i18n="nav_about">Sobre mí</a>
+        <a href="#skills" data-i18n="nav_skills">Habilidades</a>
+        <a href="#library" data-i18n="nav_library">Librería</a>
+        <a href="#contact" data-i18n="nav_contact">Contacto</a>
+      </nav>
+      <button id="langSwitch" class="lang-switch" type="button" aria-label="Cambiar idioma">
+        <span id="langLabel">EN</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-avatar">
+          <img id="heroAvatar" src="assets/placeholder.svg" alt="" />
+        </div>
+        <div class="hero-text">
+          <h1 id="heroName">Daniel Jimenez</h1>
+          <p class="hero-role" id="heroRole">Video Game Developer</p>
+          <p class="hero-tagline" id="heroTagline"></p>
+          <div class="hero-actions">
+            <a id="heroCv" class="btn btn-primary" href="#" target="_blank" rel="noopener" data-i18n="download_cv">Descargar CV</a>
+            <a id="heroLinkedin" class="btn btn-ghost" href="#" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="about" class="section">
+      <div class="wrap">
+        <h2 class="section-title" data-i18n="about_title">Sobre mí</h2>
+        <div class="about-grid">
+          <div class="about-bio" id="aboutBio"></div>
+          <ul class="about-stats" id="aboutStats"></ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- HABILIDADES -->
+    <section id="skills" class="section section-alt">
+      <div class="wrap">
+        <h2 class="section-title" data-i18n="skills_title">Habilidades y Tecnologías</h2>
+        <div class="skills-cloud" id="skillsCloud"></div>
+      </div>
+    </section>
+
+    <!-- LIBRERIA -->
+    <section id="library" class="section">
+      <div class="wrap">
+        <h2 class="section-title" data-i18n="library_title">Librería de Proyectos</h2>
+        <div class="project-grid" id="projectGrid"></div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contact" class="section section-alt">
+      <div class="wrap contact-inner">
+        <h2 class="section-title" data-i18n="contact_title">Contacto</h2>
+        <p id="contactText"></p>
+        <div class="contact-actions" id="contactActions"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p id="footerName">Daniel Jimenez</p>
+      <p class="muted" data-i18n="footer_note">Portafolio generado desde archivos de datos editables.</p>
+    </div>
+  </footer>
+
+  <!-- Modal de trailer / detalle -->
+  <div id="modal" class="modal" hidden aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-panel" role="document">
+      <button class="modal-close" type="button" data-close aria-label="Cerrar">✕</button>
+      <div id="modalBody"></div>
+    </div>
+  </div>
+
+  <noscript>
+    <p style="padding:1rem;text-align:center">
+      Este portafolio requiere JavaScript para cargar los datos. Consulta <code>llms.txt</code> para un resumen legible por IAs.
+    </p>
+  </noscript>
+
+  <script src="data/site-data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

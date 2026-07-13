@@ -1,0 +1,20 @@
+title_es: Coop Game
+title_en: Coop Game
+
+engine: Unreal Engine
+language: C++
+status_es: Completado
+status_en: Completed
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:
+download: https://drive.google.com/file/d/1Lu2CWyaGLEi5SJByDbjwZdF1viJQo_o1/view
+
+short_es: Juego cooperativo multijugador con enemigos inteligentes en Unreal.
+short_en: Cooperative multiplayer game with smart enemies in Unreal.
+
+tools: Unreal Engine, C++, Multiplayer, AI
+
+features_es: Advanced AI, Multiplayer, Smart Enemies
+features_en: Advanced AI, Multiplayer, Smart Enemies

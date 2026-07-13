@@ -1,0 +1,20 @@
+title_es: Hungry Fox
+title_en: Hungry Fox
+
+engine: Unity
+language: C#
+status_es: Completado
+status_en: Completed
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:
+download: https://github.com/Da-dot/Hungry-Fox
+
+short_es: Aventura de acción con vista isométrica: un zorro rescatando gallinas.
+short_en: Isometric adventure-action game: a brave fox rescuing chickens.
+
+tools: Unity, C#, Isometric, Gameplay Programming
+
+features_es: Adventure-Action Game with Isometric View, Play as a Brave Fox on a Rescue Mission, Recover Stolen Chickens, Explore Forests Farms and Enemy Camps
+features_en: Adventure-Action Game with Isometric View, Play as a Brave Fox on a Rescue Mission, Recover Stolen Chickens, Explore Forests Farms and Enemy Camps

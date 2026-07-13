@@ -1,0 +1,20 @@
+title_es: Dead Race
+title_en: Dead Race
+
+engine: Unity
+language: C#
+status_es: En desarrollo
+status_en: In Development
+year:
+
+thumbnail: images/cover.jpg
+video: youtube:nYdjjkVWmeQhttps://www.youtube.com/watch?v=nYdjjkVWmeQ
+download:
+
+short_es: Carrera con IA avanzada, enemigos inteligentes y planificación táctica.
+short_en: Racing game with advanced AI, smart enemies and tactical planning.
+
+tools: Unity, C#, AI, GOAP, Behaviour Trees, Pathfinding, Perception
+
+features_es: Advanced AI, Smart Enemies, Advanced Pathfinding, Line of Sight Detection, Tactical Cover Usage, Positional Reasoning, World-Dependent Planning, Perception System, Short-Term Memory, Dynamic World State, Blackboard System, Squad AI, Agent Communication, Dynamic Replanning, Action Failure Handling, Behavior Tree Cancellation
+features_en: Advanced AI, Smart Enemies, Advanced Pathfinding, Line of Sight Detection, Tactical Cover Usage, Positional Reasoning, World-Dependent Planning, Perception System, Short-Term Memory, Dynamic World State, Blackboard System, Squad AI, Agent Communication, Dynamic Replanning, Action Failure Handling, Behavior Tree Cancellation
