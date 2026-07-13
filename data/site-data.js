@@ -122,7 +122,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/hospital/images/Captura.png",
+      "thumbnail": "data/projects/hospital/images/cover.jpg",
       "video": "youtube:gI0s1OeseaU",
       "download": "https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view",
       "short": {
@@ -165,7 +165,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/BmPDcbTc8pQ/mqdefault.jpg",
+      "thumbnail": "data/projects/coop-game/images/cover.jpg",
       "video": "youtube:BmPDcbTc8pQ",
       "download": "https://drive.google.com/file/d/1Lu2CWyaGLEi5SJByDbjwZdF1viJQo_o1/view",
       "short": {
@@ -208,7 +208,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/-qoHJP4h-X0/mqdefault.jpg",
+      "thumbnail": "data/projects/battle-royal/images/cover.jpg",
       "video": "youtube:-qoHJP4h-X0",
       "download": "https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view",
       "short": {
@@ -257,7 +257,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/vu_spDjuLbY/mqdefault.jpg",
+      "thumbnail": "data/projects/among-us/images/cover.jpg",
       "video": "youtube:vu_spDjuLbY",
       "download": "https://drive.google.com/file/d/1dHVNNDGfBbP3iUzw8O1ZJgVERv0bNOT8/view",
       "short": {
@@ -385,7 +385,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/OaWkSW11pag/mqdefault.jpg",
+      "thumbnail": "data/projects/guardians-of-the-animals/images/cover.jpg",
       "video": "youtube:OaWkSW11pag",
       "download": "https://nemorisgames.com/portfolio/guardians-of-the-animals/",
       "short": {
@@ -428,7 +428,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/tLwaLUbbRoI/mqdefault.jpg",
+      "thumbnail": "data/projects/mindfulness-vr/images/cover.jpg",
       "video": "youtube:tLwaLUbbRoI",
       "download": "https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view",
       "short": {
@@ -471,7 +471,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/VTRf_bWLyj4/mqdefault.jpg",
+      "thumbnail": "data/projects/covid-attack/images/cover.jpg",
       "video": "youtube:VTRf_bWLyj4",
       "download": "https://danni-zj.itch.io/covid-attack",
       "short": {
@@ -516,7 +516,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "https://img.youtube.com/vi/Eapw1C3Fskk/mqdefault.jpg",
+      "thumbnail": "data/projects/hungry-fox/images/cover.jpg",
       "video": "youtube:Eapw1C3Fskk",
       "download": "https://github.com/Da-dot/Hungry-Fox",
       "short": {
@@ -549,5 +549,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-13T21:48:42.667820+00:00"
+  "generatedAt": "2026-07-13T21:53:45.759317+00:00"
 };

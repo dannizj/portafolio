@@ -7,7 +7,7 @@ status_es: Completado
 status_en: Completed
 year:
 
-thumbnail: images/Captura.png
+thumbnail: images/cover.jpg
 video: youtube:gI0s1OeseaU
 
 download: https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view
