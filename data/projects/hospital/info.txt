@@ -7,8 +7,9 @@ status_es: Completado
 status_en: Completed
 year:
 
-thumbnail: images/cover.jpg
-video: youtube:
+thumbnail: images/Captura.png
+video: youtube:gI0s1OeseaUhttps://www.youtube.com/watch?v=gI0s1OeseaU
+
 download: https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view
 
 short_es: Simulación social y de vida con personajes dirigidos por IA GOAP.

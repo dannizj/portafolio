@@ -19,7 +19,7 @@ window.SITE_DATA = {
     },
     "experience": "6",
     "location": "Remote / Latam",
-    "avatar": "",
+    "avatar": "assets/mi-foto.png",
     "skills": [
       "Unity",
       "C#",
@@ -51,7 +51,7 @@ window.SITE_DATA = {
       },
       "year": "",
       "thumbnail": "data/projects/dead-race/images/cover.jpg",
-      "video": "youtube:nYdjjkVWmeQhttps://www.youtube.com/watch?v=nYdjjkVWmeQ",
+      "video": "youtube:https://www.youtube.com/watch?v=nYdjjkVWmeQ",
       "download": null,
       "short": {
         "es": "Carrera con IA avanzada, enemigos inteligentes y planificación táctica.",
@@ -122,8 +122,8 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/hospital/images/cover.jpg",
-      "video": "youtube:",
+      "thumbnail": "data/projects/hospital/images/Captura.png",
+      "video": "youtube:gI0s1OeseaUhttps://www.youtube.com/watch?v=gI0s1OeseaU",
       "download": "https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view",
       "short": {
         "es": "Simulación social y de vida con personajes dirigidos por IA GOAP.",
@@ -549,5 +549,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-13T19:10:19.731660+00:00"
+  "generatedAt": "2026-07-13T20:53:12.698654+00:00"
 };

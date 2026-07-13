@@ -2,3 +2,5 @@ __pycache__/
 *.pyc
 .DS_Store
 Thumbs.db
+# Los videos mp4 se hostean externamente (superan limite 100MB de GitHub)
+*.mp4

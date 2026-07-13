@@ -32,9 +32,8 @@
   var YT_FALLBACK = 'https://www.youtube.com/embed/';
   function ytQuery(id, opts) {
     opts = opts || {};
-    var p = 'autoplay=1&rel=0&modestbranding=1';
-    if (opts.mute) p += '&mute=1&controls=0&loop=1&playlist=' + encodeURIComponent(id);
-    return p;
+    if (opts.mute) return 'autoplay=1&mute=1&controls=0&loop=1&rel=0&playlist=' + encodeURIComponent(id);
+    return 'rel=0';
   }
   function ytSrc(domain, id, opts) {
     return domain + encodeURIComponent(id) + '?' + ytQuery(id, opts);
@@ -204,7 +203,10 @@
     if (pr.video) {
       if (isYoutube(pr.video)) {
         var vid = ytId(pr.video);
-        html += '<div class="modal-video">' + ytIframeHTML(vid, { title: T(pr.title) }) + '</div>';
+        html += '<div class="modal-video">' + ytIframeHTML(vid, { title: T(pr.title) }) +
+          '<a class="modal-video-ytlink" href="https://youtu.be/' + esc(vid) +
+          '" target="_blank" rel="noopener" title="' + I18N.t('ver_en_youtube') +
+          '">▶ YouTube</a></div>';
         html += '<div class="modal-ytlink"><a class="btn btn-ghost" href="https://youtu.be/' + esc(vid) + '" target="_blank" rel="noopener">' + I18N.t('ver_en_youtube') + ' ↗</a></div>';
       } else {
         html += '<div class="modal-video"><video src="' + esc(pr.video) + '" controls autoplay></video></div>';
