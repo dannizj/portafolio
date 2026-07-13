@@ -48,6 +48,38 @@
       'frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
   }
 
+  /* ---------- YouTube IFrame Player API ---------- */
+  var YT_API_LOADED = false, YT_API_READY = false, YT_QUEUE = [], currentPlayer = null;
+
+  function loadYTAPI() {
+    if (YT_API_LOADED) return;
+    if (window.YT && YT.Player) { YT_API_READY = true; return; }
+    YT_API_LOADED = true;
+    var tag = document.createElement('script');
+    tag.src = 'https://www.youtube.com/iframe_api';
+    var first = document.getElementsByTagName('script')[0];
+    first.parentNode.insertBefore(tag, first);
+  }
+
+  window.onYouTubeIframeAPIReady = function () {
+    YT_API_READY = true;
+    YT_QUEUE.forEach(function (fn) { fn(); });
+    YT_QUEUE = [];
+  };
+
+  function createPlayer(vid) {
+    if (!YT_API_READY) { YT_QUEUE.push(createPlayer.bind(null, vid)); return; }
+    if (currentPlayer) { try { currentPlayer.destroy(); } catch (e) {} currentPlayer = null; }
+    var container = document.getElementById('yt-player-container');
+    if (!container) return;
+    currentPlayer = new YT.Player('yt-player-container', {
+      height: '100%',
+      width: '100%',
+      videoId: vid,
+      playerVars: { rel: 0, modestbranding: 1, playsinline: 1 }
+    });
+  }
+
   /* ---------- RENDER ---------- */
   function renderHero() {
     $('#brandName').textContent = P.name || 'Portafolio';
@@ -203,7 +235,7 @@
     if (pr.video) {
       if (isYoutube(pr.video)) {
         var vid = ytId(pr.video);
-        html += '<div class="modal-video">' + ytIframeHTML(vid, { title: T(pr.title) }) +
+        html += '<div class="modal-video" id="yt-player-container">' +
           '<a class="modal-video-ytlink" href="https://youtu.be/' + esc(vid) +
           '" target="_blank" rel="noopener" title="' + I18N.t('ver_en_youtube') +
           '">▶ YouTube</a></div>';
@@ -239,6 +271,10 @@
     }
 
     modalBody.innerHTML = html;
+    if (pr.video && isYoutube(pr.video)) {
+      loadYTAPI();
+      createPlayer(ytId(pr.video));
+    }
     modal.hidden = false;
     modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
@@ -251,6 +287,7 @@
   function closeModal() {
     modal.hidden = true;
     modal.setAttribute('aria-hidden', 'true');
+    if (currentPlayer) { try { currentPlayer.destroy(); } catch (e) {} currentPlayer = null; }
     modalBody.innerHTML = '';
     document.body.style.overflow = '';
   }
