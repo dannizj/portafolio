@@ -85,6 +85,7 @@
       img.src = pr.thumbnail || PLACEHOLDER;
       img.alt = T(pr.title);
       img.loading = 'lazy';
+      img.onerror = function () { if (this.src !== PLACEHOLDER) this.src = PLACEHOLDER; };
       media.appendChild(img);
 
       if (pr.video) {

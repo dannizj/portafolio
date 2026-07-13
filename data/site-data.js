@@ -385,7 +385,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/guardians-of-the-animals/images/cover.jpg",
+      "thumbnail": "https://img.youtube.com/vi/OaWkSW11pag/mqdefault.jpg",
       "video": "youtube:OaWkSW11pag",
       "download": "https://nemorisgames.com/portfolio/guardians-of-the-animals/",
       "short": {
@@ -428,7 +428,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/mindfulness-vr/images/cover.jpg",
+      "thumbnail": "https://img.youtube.com/vi/tLwaLUbbRoI/mqdefault.jpg",
       "video": "youtube:tLwaLUbbRoI",
       "download": "https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view",
       "short": {
@@ -471,7 +471,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/covid-attack/images/cover.jpg",
+      "thumbnail": "https://img.youtube.com/vi/VTRf_bWLyj4/mqdefault.jpg",
       "video": "youtube:VTRf_bWLyj4",
       "download": "https://danni-zj.itch.io/covid-attack",
       "short": {
@@ -516,7 +516,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/hungry-fox/images/cover.jpg",
+      "thumbnail": "https://img.youtube.com/vi/Eapw1C3Fskk/mqdefault.jpg",
       "video": "youtube:Eapw1C3Fskk",
       "download": "https://github.com/Da-dot/Hungry-Fox",
       "short": {
@@ -549,5 +549,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-13T21:28:58.710144+00:00"
+  "generatedAt": "2026-07-13T21:30:42.634277+00:00"
 };

@@ -103,6 +103,11 @@ for slug in slugs:
     thumbnail = f"data/projects/{slug}/{raw['thumbnail']}" if raw.get("thumbnail") else None
     video = raw.get("video", "").strip() or None
     download = raw.get("download", "").strip() or None
+    # Si no hay thumbnail local pero hay video YouTube, usar miniatura de YouTube
+    if thumbnail and not os.path.exists(os.path.join(ROOT, thumbnail)):
+        m = re.match(r"^youtube:(.+)$", video or "")
+        if m:
+            thumbnail = f"https://img.youtube.com/vi/{m.group(1).strip()}/mqdefault.jpg"
     projects.append({
         "slug": slug,
         "title": raw.get("title", {"es": slug, "en": slug}),
