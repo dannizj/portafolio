@@ -8,7 +8,7 @@ status_en: Completed
 year:
 
 thumbnail: images/cover.jpg
-video: youtube:
+video: youtube:VTRf_bWLyj4
 download: https://danni-zj.itch.io/covid-attack
 
 short_es: Plataformas de acción 2D para frenar la pandemia saltando y desinfectando.

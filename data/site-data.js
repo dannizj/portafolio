@@ -386,7 +386,7 @@ window.SITE_DATA = {
       },
       "year": "",
       "thumbnail": "data/projects/guardians-of-the-animals/images/cover.jpg",
-      "video": "youtube:",
+      "video": "youtube:OaWkSW11pag",
       "download": "https://nemorisgames.com/portfolio/guardians-of-the-animals/",
       "short": {
         "es": "Juego educativo y divertido para niños de 8-12 años sobre el medio ambiente.",
@@ -429,7 +429,7 @@ window.SITE_DATA = {
       },
       "year": "",
       "thumbnail": "data/projects/mindfulness-vr/images/cover.jpg",
-      "video": "youtube:",
+      "video": "youtube:tLwaLUbbRoI",
       "download": "https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view",
       "short": {
         "es": "Experiencia de mindfulness y relajación profunda en realidad virtual.",
@@ -472,7 +472,7 @@ window.SITE_DATA = {
       },
       "year": "",
       "thumbnail": "data/projects/covid-attack/images/cover.jpg",
-      "video": "youtube:",
+      "video": "youtube:VTRf_bWLyj4",
       "download": "https://danni-zj.itch.io/covid-attack",
       "short": {
         "es": "Plataformas de acción 2D para frenar la pandemia saltando y desinfectando.",
@@ -517,7 +517,7 @@ window.SITE_DATA = {
       },
       "year": "",
       "thumbnail": "data/projects/hungry-fox/images/cover.jpg",
-      "video": "youtube:",
+      "video": "youtube:Eapw1C3Fskk",
       "download": "https://github.com/Da-dot/Hungry-Fox",
       "short": {
         "es": "Aventura de acción con vista isométrica: un zorro rescatando gallinas.",
@@ -549,5 +549,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-13T21:11:07.796010+00:00"
+  "generatedAt": "2026-07-13T21:28:58.710144+00:00"
 };

@@ -8,7 +8,7 @@ status_en: Completed
 year:
 
 thumbnail: images/cover.jpg
-video: youtube:
+video: youtube:Eapw1C3Fskk
 download: https://github.com/Da-dot/Hungry-Fox
 
 short_es: Aventura de acción con vista isométrica: un zorro rescatando gallinas.

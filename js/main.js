@@ -25,61 +25,6 @@
   }
   function isYoutube(v) { return typeof v === 'string' && v.indexOf('youtube:') === 0; }
   function ytId(v) { return v.slice('youtube:'.length).trim(); }
-  // Dominio principal = youtube-nocookie.com (NO requiere cookies de terceros,
-  // evita el error generico de reproduccion por bloqueo de cookies/tracking).
-  // Fallback automático a youtube.com si el primero falla (onerror).
-  var YT_PRIMARY = 'https://www.youtube-nocookie.com/embed/';
-  var YT_FALLBACK = 'https://www.youtube.com/embed/';
-  function ytQuery(id, opts) {
-    opts = opts || {};
-    if (opts.mute) return 'autoplay=1&mute=1&controls=0&loop=1&rel=0&playlist=' + encodeURIComponent(id);
-    return 'rel=0';
-  }
-  function ytSrc(domain, id, opts) {
-    return domain + encodeURIComponent(id) + '?' + ytQuery(id, opts);
-  }
-  function ytIframeHTML(id, opts) {
-    opts = opts || {};
-    var cls = opts.mute ? 'preview' : '';
-    var title = opts.title ? esc(opts.title) : 'video';
-    var fb = ytSrc(YT_FALLBACK, id, opts);
-    return '<iframe class="' + cls + '" src="' + ytSrc(YT_PRIMARY, id, opts) +
-      '" title="' + title + '" onerror="this.onerror=null;this.src=\'' + fb + '\'" ' +
-      'frameborder="0" allow="autoplay; encrypted-media; fullscreen" allowfullscreen></iframe>';
-  }
-
-  /* ---------- YouTube IFrame Player API ---------- */
-  var YT_API_LOADED = false, YT_API_READY = false, YT_QUEUE = [], currentPlayer = null;
-
-  function loadYTAPI() {
-    if (YT_API_LOADED) return;
-    if (window.YT && YT.Player) { YT_API_READY = true; return; }
-    YT_API_LOADED = true;
-    var tag = document.createElement('script');
-    tag.src = 'https://www.youtube.com/iframe_api';
-    var first = document.getElementsByTagName('script')[0];
-    first.parentNode.insertBefore(tag, first);
-  }
-
-  window.onYouTubeIframeAPIReady = function () {
-    YT_API_READY = true;
-    YT_QUEUE.forEach(function (fn) { fn(); });
-    YT_QUEUE = [];
-  };
-
-  function createPlayer(vid) {
-    if (!YT_API_READY) { YT_QUEUE.push(createPlayer.bind(null, vid)); return; }
-    if (currentPlayer) { try { currentPlayer.destroy(); } catch (e) {} currentPlayer = null; }
-    var container = document.getElementById('yt-player-container');
-    if (!container) return;
-    currentPlayer = new YT.Player('yt-player-container', {
-      height: '100%',
-      width: '100%',
-      videoId: vid,
-      playerVars: { rel: 0, modestbranding: 1, playsinline: 1 }
-    });
-  }
-
   /* ---------- RENDER ---------- */
   function renderHero() {
     $('#brandName').textContent = P.name || 'Portafolio';
@@ -145,18 +90,6 @@
       if (pr.video) {
         var ov = el('div', 'card-overlay', '<span class="play">▶</span>');
         media.appendChild(ov);
-        // Preview en hover (solo YouTube)
-        if (isYoutube(pr.video)) {
-          var id = ytId(pr.video);
-          card.addEventListener('mouseenter', function () {
-            media.innerHTML = ytIframeHTML(id, { mute: true });
-          });
-          card.addEventListener('mouseleave', function () {
-            media.innerHTML = '';
-            media.appendChild(img);
-            media.appendChild(ov);
-          });
-        }
       }
       card.appendChild(media);
 
@@ -235,10 +168,9 @@
     if (pr.video) {
       if (isYoutube(pr.video)) {
         var vid = ytId(pr.video);
-        html += '<div class="modal-video" id="yt-player-container">' +
-          '<a class="modal-video-ytlink" href="https://youtu.be/' + esc(vid) +
-          '" target="_blank" rel="noopener" title="' + I18N.t('ver_en_youtube') +
-          '">▶ YouTube</a></div>';
+        html += '<div class="modal-video"><iframe src="https://www.youtube.com/embed/' + esc(vid) +
+          '?enablejsapi=1&origin=https://dannizj.github.io&rel=0" ' +
+          'frameborder="0" allow="encrypted-media; fullscreen" allowfullscreen></iframe></div>';
         html += '<div class="modal-ytlink"><a class="btn btn-ghost" href="https://youtu.be/' + esc(vid) + '" target="_blank" rel="noopener">' + I18N.t('ver_en_youtube') + ' ↗</a></div>';
       } else {
         html += '<div class="modal-video"><video src="' + esc(pr.video) + '" controls autoplay></video></div>';
@@ -271,10 +203,6 @@
     }
 
     modalBody.innerHTML = html;
-    if (pr.video && isYoutube(pr.video)) {
-      loadYTAPI();
-      createPlayer(ytId(pr.video));
-    }
     modal.hidden = false;
     modal.setAttribute('aria-hidden', 'false');
     document.body.style.overflow = 'hidden';
@@ -287,7 +215,6 @@
   function closeModal() {
     modal.hidden = true;
     modal.setAttribute('aria-hidden', 'true');
-    if (currentPlayer) { try { currentPlayer.destroy(); } catch (e) {} currentPlayer = null; }
     modalBody.innerHTML = '';
     document.body.style.overflow = '';
   }

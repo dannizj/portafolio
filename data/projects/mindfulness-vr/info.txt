@@ -8,7 +8,7 @@ status_en: Completed
 year:
 
 thumbnail: images/cover.jpg
-video: youtube:
+video: youtube:tLwaLUbbRoI
 download: https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view
 
 short_es: Experiencia de mindfulness y relajación profunda en realidad virtual.
