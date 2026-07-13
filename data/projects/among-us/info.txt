@@ -8,7 +8,7 @@ status_en: Completed
 year:
 
 thumbnail: images/cover.jpg
-video: youtube:
+video: youtube:vu_spDjuLbY
 download: https://drive.google.com/file/d/1dHVNNDGfBbP3iUzw8O1ZJgVERv0bNOT8/view
 
 short_es: Clon multijugador con sincronización fluida de jugadores vía Photon PUN2.

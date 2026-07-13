@@ -165,8 +165,8 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/coop-game/images/cover.jpg",
-      "video": "youtube:",
+      "thumbnail": "https://img.youtube.com/vi/BmPDcbTc8pQ/mqdefault.jpg",
+      "video": "youtube:BmPDcbTc8pQ",
       "download": "https://drive.google.com/file/d/1Lu2CWyaGLEi5SJByDbjwZdF1viJQo_o1/view",
       "short": {
         "es": "Juego cooperativo multijugador con enemigos inteligentes en Unreal.",
@@ -208,8 +208,8 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/battle-royal/images/cover.jpg",
-      "video": "youtube:",
+      "thumbnail": "https://img.youtube.com/vi/-qoHJP4h-X0/mqdefault.jpg",
+      "video": "youtube:-qoHJP4h-X0",
       "download": "https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view",
       "short": {
         "es": "Battle royale estilo PUBG con sistema de combate completo y física realista.",
@@ -257,8 +257,8 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/among-us/images/cover.jpg",
-      "video": "youtube:",
+      "thumbnail": "https://img.youtube.com/vi/vu_spDjuLbY/mqdefault.jpg",
+      "video": "youtube:vu_spDjuLbY",
       "download": "https://drive.google.com/file/d/1dHVNNDGfBbP3iUzw8O1ZJgVERv0bNOT8/view",
       "short": {
         "es": "Clon multijugador con sincronización fluida de jugadores vía Photon PUN2.",
@@ -549,5 +549,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-13T21:30:42.634277+00:00"
+  "generatedAt": "2026-07-13T21:48:42.667820+00:00"
 };

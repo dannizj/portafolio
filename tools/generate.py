@@ -101,7 +101,13 @@ for slug in slugs:
         continue
     raw = parse_txt(read_txt(f"data/projects/{slug}/info.txt") or "")
     thumbnail = f"data/projects/{slug}/{raw['thumbnail']}" if raw.get("thumbnail") else None
-    video = raw.get("video", "").strip() or None
+    video = raw.get("video", "").strip()
+    # Normalizar: extraer solo el ID si es una URL completa
+    m = re.match(r"^youtube:(?:https?://(?:www\.)?youtu(?:be\.com/watch\?v=|\.be/))?([a-zA-Z0-9_-]+)", video)
+    if m:
+        video = f"youtube:{m.group(1)}"
+    else:
+        video = video or None
     download = raw.get("download", "").strip() or None
     # Si no hay thumbnail local pero hay video YouTube, usar miniatura de YouTube
     if thumbnail and not os.path.exists(os.path.join(ROOT, thumbnail)):

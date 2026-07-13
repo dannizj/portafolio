@@ -8,7 +8,7 @@ status_en: Completed
 year:
 
 thumbnail: images/cover.jpg
-video: youtube:
+video: youtube:-qoHJP4h-X0
 download: https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view
 
 short_es: Battle royale estilo PUBG con sistema de combate completo y física realista.
