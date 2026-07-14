@@ -8,7 +8,7 @@ status_es: Completado
 status_en: Completed
 year:
 
-thumbnail: images/cover.jpg
+thumbnail: images/SurvivingAliensIcon.png
 video: youtube:
 download: https://nemorisgames.com/portfolio/surviving-aliens/
 

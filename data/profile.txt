@@ -22,7 +22,7 @@ bio_en: I'm a video game developer with 6 years of experience programming gamepl
 
 email: dannizj03@gmail.com
 linkedin: https://www.linkedin.com/in/dannizj/
-cv: https://drive.google.com/file/d/1WX8QneXkC7NXGiHk3xaKx9m0B0w-3XnC/view
+cv: https://drive.google.com/file/d/1D9dfTLyvQxXC3Jz1TJuhaALPU7n1nWiq/view?usp=drive_link
 
 # Ruta opcional a tu foto/avatar (deja vacío para usar placeholder)
 avatar: assets/mi-foto.png

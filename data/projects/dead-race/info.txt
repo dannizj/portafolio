@@ -9,7 +9,7 @@ status_en: In Development
 year:
 
 thumbnail: images/cover.jpg
-video: youtube:
+video: youtube:https://www.youtube.com/watch?v=nYdjjkVWmeQ
 download:
 
 short_es: Carrera con IA avanzada, enemigos inteligentes y planificación táctica.

@@ -12,7 +12,7 @@ window.SITE_DATA = {
     },
     "email": "dannizj03@gmail.com",
     "linkedin": "https://www.linkedin.com/in/dannizj/",
-    "cv": "https://drive.google.com/file/d/1WX8QneXkC7NXGiHk3xaKx9m0B0w-3XnC/view",
+    "cv": "https://drive.google.com/file/d/1D9dfTLyvQxXC3Jz1TJuhaALPU7n1nWiq/view?usp=drive_link",
     "bio": {
       "es": "Soy desarrollador de videojuegos con 6 años de experiencia programando gameplay e IA. Me especializo en sistemas de IA (GOAP, árboles de comportamiento, pathfinding, percepción) y en construir experiencias pulidas en Unity y Unreal Engine. He llevado proyectos desde el prototipo hasta build jugable, incluyendo multijugador y VR.",
       "en": "I'm a video game developer with 6 years of experience programming gameplay and AI. I specialize in AI systems (GOAP, behaviour trees, pathfinding, perception) and building polished experiences in Unity and Unreal Engine. I've taken projects from prototype to playable build, including multiplayer and VR."
@@ -50,8 +50,8 @@ window.SITE_DATA = {
         "en": "In Development"
       },
       "year": "",
-      "thumbnail": "data/projects/dead-race/images/cover.jpg",
-      "video": "youtube:",
+      "thumbnail": "https://img.youtube.com/vi/nYdjjkVWmeQ/mqdefault.jpg",
+      "video": "youtube:nYdjjkVWmeQ",
       "download": null,
       "short": {
         "es": "Carrera con IA avanzada, enemigos inteligentes y planificación táctica.",
@@ -334,7 +334,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/dapper-dasher/images/cover.jpg",
+      "thumbnail": "data/projects/dapper-dasher/images/dapper-dasher.PNG",
       "video": "youtube:",
       "download": "https://drive.google.com/file/d/1IWenY_ajp4eajOUP54OsfcPAC6Q3Rdxf/view",
       "short": {
@@ -382,7 +382,7 @@ window.SITE_DATA = {
         "en": "Completed"
       },
       "year": "",
-      "thumbnail": "data/projects/surviving-aliens/images/cover.jpg",
+      "thumbnail": "data/projects/surviving-aliens/images/SurvivingAliensIcon.png",
       "video": "youtube:",
       "download": "https://nemorisgames.com/portfolio/surviving-aliens/",
       "short": {
@@ -624,5 +624,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-14T13:53:09.160056+00:00"
+  "generatedAt": "2026-07-14T20:10:50.969561+00:00"
 };

@@ -48,6 +48,8 @@
     if (P.cv) { cv.href = P.cv; } else { cv.style.display = 'none'; }
     var li = $('#heroLinkedin');
     if (P.linkedin) li.href = P.linkedin; else li.style.display = 'none';
+    var he = $('#heroEmail');
+    if (P.email) { he.href = 'mailto:' + P.email; } else { he.style.display = 'none'; }
     $('#footerName').textContent = P.name || '';
   }
 

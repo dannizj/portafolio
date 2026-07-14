@@ -54,6 +54,11 @@ a { color: var(--accent); text-decoration: none; }
 .main-nav { margin-left: auto; display: flex; gap: 22px; }
 .main-nav a { color: var(--text); font-weight: 600; font-size: .95rem; padding: 4px 0; border-bottom: 2px solid transparent; }
 .main-nav a:hover { color: var(--text-strong); border-color: var(--accent); }
+.main-nav .nav-email {
+  font-size: 1.1rem; padding: 4px 6px; border: 1px solid var(--border);
+  border-radius: 999px; line-height: 1;
+}
+.main-nav .nav-email:hover { border-color: var(--accent); background: var(--panel-2); }
 .lang-switch {
   margin-left: 8px; background: var(--panel-2); color: var(--accent);
   border: 1px solid var(--border); border-radius: 999px; padding: 6px 14px;
@@ -188,6 +193,26 @@ a { color: var(--accent); text-decoration: none; }
 .modal-dl { margin-top: 20px; }
 .modal-ytlink { margin: -12px 0 18px; }
 .modal-ytlink .btn { font-size: .9rem; padding: 8px 16px; }
+
+/* Animación horizontal al filtrar */
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+.card {
+  animation: slideIn .35s ease backwards;
+}
+.card:nth-child(1) { animation-delay: 0s; }
+.card:nth-child(2) { animation-delay: .04s; }
+.card:nth-child(3) { animation-delay: .08s; }
+.card:nth-child(4) { animation-delay: .12s; }
+.card:nth-child(5) { animation-delay: .16s; }
+.card:nth-child(6) { animation-delay: .2s; }
+.card:nth-child(7) { animation-delay: .24s; }
+.card:nth-child(8) { animation-delay: .28s; }
+.card:nth-child(9) { animation-delay: .32s; }
+.card:nth-child(10) { animation-delay: .36s; }
+.card:nth-child(11) { animation-delay: .4s; }
 
 /* Responsive */
 @media (max-width: 760px) {

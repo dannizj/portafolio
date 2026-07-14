@@ -8,7 +8,7 @@ status_es: Completado
 status_en: Completed
 year:
 
-thumbnail: images/cover.jpg
+thumbnail: images/dapper-dasher.PNG
 video: youtube:
 download: https://drive.google.com/file/d/1IWenY_ajp4eajOUP54OsfcPAC6Q3Rdxf/view
 
