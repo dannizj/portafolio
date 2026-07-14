@@ -3,6 +3,7 @@ title_en: Hospital
 
 engine: Unity
 language: C#
+tags: Game Developer, Programmer, AI, Unity, C#
 status_es: Completado
 status_en: Completed
 year:

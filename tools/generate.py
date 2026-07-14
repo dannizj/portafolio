@@ -26,7 +26,7 @@ PROJECTS_DIR = os.path.join(DATA, "projects")
 SITE_URL = "https://dannizj.github.io/portafolio"
 
 # Claves que se interpretan como listas (coma-separadas)
-LIST_KEYS = {"tools", "features", "skills"}
+LIST_KEYS = {"tools", "features", "skills", "tags"}
 
 
 def parse_txt(content):
@@ -126,6 +126,7 @@ for slug in slugs:
         "download": download,
         "short": raw.get("short", {"es": "", "en": ""}),
         "tools": raw.get("tools", []),
+        "tags": raw.get("tags", []),
         "features": raw.get("features", {"es": [], "en": []}),
         "mediaPaths": {
             "images": f"data/projects/{slug}/images/",

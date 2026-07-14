@@ -66,6 +66,13 @@ window.SITE_DATA = {
         "Pathfinding",
         "Perception"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "AI",
+        "Unity",
+        "C#"
+      ],
       "features": {
         "es": [
           "Advanced AI",
@@ -135,6 +142,13 @@ window.SITE_DATA = {
         "AI",
         "GOAP"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "AI",
+        "Unity",
+        "C#"
+      ],
       "features": {
         "es": [
           "Social and Life Simulation",
@@ -178,6 +192,13 @@ window.SITE_DATA = {
         "Multiplayer",
         "AI"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "AI",
+        "Unreal",
+        "C++"
+      ],
       "features": {
         "es": [
           "Advanced AI",
@@ -220,6 +241,13 @@ window.SITE_DATA = {
         "C++",
         "Multiplayer",
         "Physics"
+      ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "Unreal",
+        "C++",
+        "VFX"
       ],
       "features": {
         "es": [
@@ -270,6 +298,12 @@ window.SITE_DATA = {
         "Multiplayer",
         "Photon PUN2"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "Unity",
+        "C#"
+      ],
       "features": {
         "es": [
           "Multiplayer Photon PUN2",
@@ -311,6 +345,12 @@ window.SITE_DATA = {
         "C++",
         "Gameplay Programming",
         "AI"
+      ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "AI",
+        "C++"
       ],
       "features": {
         "es": [
@@ -355,6 +395,13 @@ window.SITE_DATA = {
         "Strategy",
         "AI"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "AI",
+        "Unity",
+        "C#"
+      ],
       "features": {
         "es": [
           "Turn-Based Strategic Gameplay",
@@ -397,6 +444,13 @@ window.SITE_DATA = {
         "C#",
         "Educational",
         "Gameplay Programming"
+      ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "Unity",
+        "C#",
+        "level design and lights"
       ],
       "features": {
         "es": [
@@ -441,6 +495,13 @@ window.SITE_DATA = {
         "VR",
         "Sound Design"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "Unity",
+        "C#",
+        "level design and lights"
+      ],
       "features": {
         "es": [
           "Mindfulness Experience in VR",
@@ -483,6 +544,13 @@ window.SITE_DATA = {
         "C#",
         "2D",
         "Gameplay Programming"
+      ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "Unity",
+        "C#",
+        "VFX"
       ],
       "features": {
         "es": [
@@ -529,6 +597,13 @@ window.SITE_DATA = {
         "Isometric",
         "Gameplay Programming"
       ],
+      "tags": [
+        "Game Developer",
+        "Programmer",
+        "Unity",
+        "C#",
+        "level design and lights"
+      ],
       "features": {
         "es": [
           "Adventure-Action Game with Isometric View",
@@ -549,5 +624,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-13T21:53:45.759317+00:00"
+  "generatedAt": "2026-07-14T13:53:09.160056+00:00"
 };

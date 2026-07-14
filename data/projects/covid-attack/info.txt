@@ -3,6 +3,7 @@ title_en: Covid Attack
 
 engine: Unity
 language: C#
+tags: Game Developer, Programmer, Unity, C#, VFX
 status_es: Completado
 status_en: Completed
 year:

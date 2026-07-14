@@ -3,6 +3,7 @@ title_en: Coop Game
 
 engine: Unreal Engine
 language: C++
+tags: Game Developer, Programmer, AI, Unreal, C++
 status_es: Completado
 status_en: Completed
 year:

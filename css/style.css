@@ -110,6 +110,18 @@ a { color: var(--accent); text-decoration: none; }
 .skill-tag:hover { border-color: var(--accent); color: var(--accent); }
 
 /* Project grid */
+.filter-tabs {
+  display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 22px;
+}
+.filter-tab {
+  background: var(--panel-2); border: 1px solid var(--border); color: var(--text);
+  padding: 7px 15px; border-radius: 999px; font-size: .88rem; font-weight: 600;
+  cursor: pointer; transition: .15s;
+}
+.filter-tab:hover { border-color: var(--accent); color: var(--accent); }
+.filter-tab.active {
+  background: var(--accent); border-color: var(--accent); color: #04121d;
+}
 .project-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(290px, 1fr)); gap: 22px; }
 .card {
   background: var(--panel); border: 1px solid var(--border); border-radius: var(--radius);

@@ -25,6 +25,16 @@
   }
   function isYoutube(v) { return typeof v === 'string' && v.indexOf('youtube:') === 0; }
   function ytId(v) { return v.slice('youtube:'.length).trim(); }
+
+  // Etiquetas para filtrar la libreria (pestañas)
+  var FILTERS = ['Game Developer', 'Programmer', 'AI', 'Unity', 'Unreal', 'level design and lights', 'VFX', 'C#', 'C++'];
+  var currentFilter = 'all';
+
+  function matchesFilter(pr) {
+    if (currentFilter === 'all') return true;
+    var tags = (pr.tags || []).map(function (t) { return t.toLowerCase(); });
+    return tags.indexOf(currentFilter.toLowerCase()) !== -1;
+  }
   /* ---------- RENDER ---------- */
   function renderHero() {
     $('#brandName').textContent = P.name || 'Portafolio';
@@ -69,10 +79,40 @@
     });
   }
 
+  function renderFilters() {
+    var bar = $('#filterTabs');
+    bar.innerHTML = '';
+    var opts = [{ id: 'all', label: I18N.t('filter_all') }];
+    FILTERS.forEach(function (f) { opts.push({ id: f, label: f }); });
+    opts.forEach(function (o) {
+      var btn = el('button', 'filter-tab', esc(o.label));
+      btn.type = 'button';
+      btn.setAttribute('role', 'tab');
+      btn.setAttribute('data-filter', o.id);
+      if (o.id === currentFilter) {
+        btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
+      } else {
+        btn.setAttribute('aria-selected', 'false');
+      }
+      btn.addEventListener('click', function () {
+        currentFilter = o.id;
+        renderFilters();
+        renderLibrary();
+      });
+      bar.appendChild(btn);
+    });
+  }
+
   function renderLibrary() {
     var grid = $('#projectGrid');
     grid.innerHTML = '';
-    DATA.projects.forEach(function (pr) {
+    var list = DATA.projects.filter(matchesFilter);
+    if (!list.length) {
+      grid.appendChild(el('p', 'muted', esc(I18N.t('no_projects'))));
+      return;
+    }
+    list.forEach(function (pr) {
       var card = el('article', 'card');
       card.id = pr.slug;
       card.tabIndex = 0;
@@ -154,7 +194,7 @@
       n.textContent = I18N.t(n.getAttribute('data-i18n'));
     });
     document.title = (P.name || 'Portafolio') + ' — ' + T(P.role);
-    renderHero(); renderAbout(); renderSkills(); renderLibrary(); renderContact();
+    renderHero(); renderAbout(); renderSkills(); renderFilters(); renderLibrary(); renderContact();
     injectJsonLd();
   }
 

@@ -3,6 +3,7 @@ title_en: Dapper-Dasher
 
 engine: C++
 language: C++
+tags: Game Developer, Programmer, AI, C++
 status_es: Completado
 status_en: Completed
 year:

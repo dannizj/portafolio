@@ -3,6 +3,7 @@ title_en: Hungry Fox
 
 engine: Unity
 language: C#
+tags: Game Developer, Programmer, Unity, C#, level design and lights
 status_es: Completado
 status_en: Completed
 year:
