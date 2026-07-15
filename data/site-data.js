@@ -18,6 +18,10 @@ window.SITE_DATA = {
       "en": "I'm a video game developer with 6 years of experience programming gameplay and AI. I specialize in AI systems (GOAP, behaviour trees, pathfinding, perception) and building polished experiences in Unity and Unreal Engine. I've taken projects from prototype to playable build, including multiplayer and VR."
     },
     "experience": "6",
+    "available": {
+      "es": "Disponible para contratación",
+      "en": "Available for hire"
+    },
     "location": "Remote / Latam",
     "avatar": "assets/mi-foto.png",
     "skills": [
@@ -53,6 +57,7 @@ window.SITE_DATA = {
       "thumbnail": "https://img.youtube.com/vi/nYdjjkVWmeQ/mqdefault.jpg",
       "video": "youtube:nYdjjkVWmeQ",
       "download": null,
+      "repo": null,
       "short": {
         "es": "Carrera con IA avanzada, enemigos inteligentes y planificación táctica.",
         "en": "Racing game with advanced AI, smart enemies and tactical planning."
@@ -132,6 +137,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/hospital/images/cover.jpg",
       "video": "youtube:gI0s1OeseaU",
       "download": "https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view",
+      "repo": null,
       "short": {
         "es": "Simulación social y de vida con personajes dirigidos por IA GOAP.",
         "en": "Social and life simulation with GOAP-driven smart characters."
@@ -182,6 +188,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/coop-game/images/cover.jpg",
       "video": "youtube:BmPDcbTc8pQ",
       "download": "https://drive.google.com/file/d/1Lu2CWyaGLEi5SJByDbjwZdF1viJQo_o1/view",
+      "repo": null,
       "short": {
         "es": "Juego cooperativo multijugador con enemigos inteligentes en Unreal.",
         "en": "Cooperative multiplayer game with smart enemies in Unreal."
@@ -232,6 +239,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/battle-royal/images/cover.jpg",
       "video": "youtube:-qoHJP4h-X0",
       "download": "https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view",
+      "repo": null,
       "short": {
         "es": "Battle royale estilo PUBG con sistema de combate completo y física realista.",
         "en": "PUBG-style battle royale with full combat system and realistic physics."
@@ -288,6 +296,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/among-us/images/cover.jpg",
       "video": "youtube:vu_spDjuLbY",
       "download": "https://drive.google.com/file/d/1dHVNNDGfBbP3iUzw8O1ZJgVERv0bNOT8/view",
+      "repo": null,
       "short": {
         "es": "Clon multijugador con sincronización fluida de jugadores vía Photon PUN2.",
         "en": "Multiplayer clone with smooth player sync & matchmaking via Photon PUN2."
@@ -337,6 +346,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/dapper-dasher/images/dapper-dasher.PNG",
       "video": "youtube:",
       "download": "https://drive.google.com/file/d/1IWenY_ajp4eajOUP54OsfcPAC6Q3Rdxf/view",
+      "repo": null,
       "short": {
         "es": "Juego de supervivencia por oleadas construido 100% en C++.",
         "en": "Wave-based survival game built 100% in C++."
@@ -385,6 +395,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/surviving-aliens/images/SurvivingAliensIcon.png",
       "video": "youtube:",
       "download": "https://nemorisgames.com/portfolio/surviving-aliens/",
+      "repo": null,
       "short": {
         "es": "Juego de estrategia por turnos donde cada decisión cuenta para sobrevivir.",
         "en": "Turn-based strategy game where every decision matters to survive."
@@ -435,6 +446,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/guardians-of-the-animals/images/cover.jpg",
       "video": "youtube:OaWkSW11pag",
       "download": "https://nemorisgames.com/portfolio/guardians-of-the-animals/",
+      "repo": null,
       "short": {
         "es": "Juego educativo y divertido para niños de 8-12 años sobre el medio ambiente.",
         "en": "Educational and fun game for kids 8-12 about the environment."
@@ -485,6 +497,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/mindfulness-vr/images/cover.jpg",
       "video": "youtube:tLwaLUbbRoI",
       "download": "https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view",
+      "repo": null,
       "short": {
         "es": "Experiencia de mindfulness y relajación profunda en realidad virtual.",
         "en": "Mindfulness experience for deep relaxation in virtual reality."
@@ -535,6 +548,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/covid-attack/images/cover.jpg",
       "video": "youtube:VTRf_bWLyj4",
       "download": "https://danni-zj.itch.io/covid-attack",
+      "repo": null,
       "short": {
         "es": "Plataformas de acción 2D para frenar la pandemia saltando y desinfectando.",
         "en": "2D action-platformer to stop the pandemic by jumping and disinfecting."
@@ -587,6 +601,7 @@ window.SITE_DATA = {
       "thumbnail": "data/projects/hungry-fox/images/cover.jpg",
       "video": "youtube:Eapw1C3Fskk",
       "download": "https://github.com/Da-dot/Hungry-Fox",
+      "repo": null,
       "short": {
         "es": "Aventura de acción con vista isométrica: un zorro rescatando gallinas.",
         "en": "Isometric adventure-action game: a brave fox rescuing chickens."
@@ -624,5 +639,5 @@ window.SITE_DATA = {
       }
     }
   ],
-  "generatedAt": "2026-07-14T20:10:50.969561+00:00"
+  "generatedAt": "2026-07-14T21:26:45.466581+00:00"
 };

@@ -84,6 +84,7 @@ profile = {
     "cv": profile_raw.get("cv", ""),
     "bio": profile_raw.get("bio", {"es": "", "en": ""}),
     "experience": profile_raw.get("experience", ""),
+    "available": profile_raw.get("available", {"es": "", "en": ""}),
     "location": profile_raw.get("location", ""),
     "avatar": profile_raw.get("avatar", ""),
     "skills": profile_raw.get("skills", []),
@@ -109,6 +110,7 @@ for slug in slugs:
     else:
         video = video or None
     download = raw.get("download", "").strip() or None
+    repo = raw.get("repo", "").strip() or None
     # Si no hay thumbnail local pero hay video YouTube, usar miniatura de YouTube
     if thumbnail and not os.path.exists(os.path.join(ROOT, thumbnail)):
         m = re.match(r"^youtube:(.+)$", video or "")
@@ -124,6 +126,7 @@ for slug in slugs:
         "thumbnail": thumbnail,
         "video": video,
         "download": download,
+        "repo": repo,
         "short": raw.get("short", {"es": "", "en": ""}),
         "tools": raw.get("tools", []),
         "tags": raw.get("tags", []),
@@ -149,37 +152,62 @@ with open(os.path.join(DATA, "site-data.js"), "w", encoding="utf-8-sig") as f:
     f.write(site_data_js)
 
 # ---- llms.txt ----
+role_es = lang(profile['role'], 'es')
+role_en = lang(profile['role'], 'en')
+avail_es = lang(profile['available'], 'es')
+avail_en = lang(profile['available'], 'en')
+
 lines = []
-lines.append(f"# {profile['name']}")
-lines.append(f"{lang(profile['role'],'es')} / {lang(profile['role'],'en')}")
-if profile["experience"]:
-    lines.append(f"Experiencia: {profile['experience']} anos")
-if profile["location"]:
-    lines.append(f"Ubicacion: {profile['location']}")
-lines.append("\n## Bio (ES)\n" + lang(profile["bio"], "es"))
-lines.append("\n## Bio (EN)\n" + lang(profile["bio"], "en"))
-lines.append("\n## Habilidades\n" + ", ".join(profile["skills"]))
-lines.append(f"\n## Proyectos ({len(projects)})\n")
-for p in projects:
-    lines.append(f"\n### {lang(p['title'],'es')} / {lang(p['title'],'en')}")
-    if p["engine"]:
-        lines.append(f"- Motor: {p['engine']}")
-    if p["language"]:
-        lines.append(f"- Lenguaje: {p['language']}")
-    if p["year"]:
-        lines.append(f"- Ano: {p['year']}")
-    lines.append(f"- ES: {lang(p['short'],'es')}")
-    lines.append(f"- EN: {lang(p['short'],'en')}")
-    if p["tools"]:
-        lines.append(f"- Herramientas: {', '.join(p['tools'])}")
-    if p["download"]:
-        lines.append(f"- Descarga: {p['download']}")
-if profile["email"]:
-    lines.append(f"\n## Contacto\nEmail: {profile['email']}")
+lines.append(f"# {profile['name']} — {role_es} / {role_en}")
+lines.append(f"\n> {lang(profile['tagline'], 'es')}")
+lines.append(f"> {lang(profile['tagline'], 'en')}")
+lines.append(f"\n## Links")
+lines.append(f"- Portfolio: {SITE_URL}")
 if profile["linkedin"]:
-    lines.append(f"LinkedIn: {profile['linkedin']}")
+    lines.append(f"- LinkedIn: {profile['linkedin']}")
 if profile["cv"]:
-    lines.append(f"CV: {profile['cv']}")
+    lines.append(f"- CV: {profile['cv']}")
+if profile["email"]:
+    lines.append(f"- Email: {profile['email']}")
+lines.append(f"\n## About")
+lines.append(f"- Experience: {profile['experience'] or '?'} years")
+if profile["location"]:
+    lines.append(f"- Location: {profile['location']}")
+if avail_en:
+    lines.append(f"- Availability: {avail_en}")
+lines.append(f"\n### Bio (EN)")
+lines.append(lang(profile['bio'], 'en'))
+lines.append(f"\n### Bio (ES)")
+lines.append(lang(profile['bio'], 'es'))
+lines.append(f"\n## Skills")
+lines.append(", ".join(profile['skills']))
+lines.append(f"\n## Projects ({len(projects)})")
+for p in projects:
+    title_en = lang(p['title'], 'en')
+    title_es = lang(p['title'], 'es')
+    lines.append(f"\n### {title_en} / {title_es}")
+    if p["engine"]:
+        lines.append(f"- Engine: {p['engine']}")
+    if p["language"]:
+        lines.append(f"- Language: {p['language']}")
+    if p["year"]:
+        lines.append(f"- Year: {p['year']}")
+    if p["tags"]:
+        lines.append(f"- Tags: {', '.join(p['tags'])}")
+    lines.append(f"- Description (EN): {lang(p['short'], 'en')}")
+    lines.append(f"- Description (ES): {lang(p['short'], 'es')}")
+    if p["tools"]:
+        lines.append(f"- Tools: {', '.join(p['tools'])}")
+    if p["repo"]:
+        lines.append(f"- Source: {p['repo']}")
+    if p["download"]:
+        lines.append(f"- Download: {p['download']}")
+    if p["video"]:
+        vid_raw = p['video']
+        if vid_raw.startswith('youtube:'):
+            vid_id = vid_raw[8:].strip()
+            if vid_id:
+                lines.append(f"- Video: https://youtu.be/{vid_id}")
 with open(os.path.join(ROOT, "llms.txt"), "w", encoding="utf-8") as f:
     f.write("\n".join(lines) + "\n")
 

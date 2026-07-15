@@ -1,108 +1,133 @@
-# Daniel Jimenez
-Desarrollador de Videojuegos y Programador / Video Game Developer & Programmer
-Experiencia: 6 anos
-Ubicacion: Remote / Latam
+# Daniel Jimenez — Desarrollador de Videojuegos y Programador / Video Game Developer & Programmer
 
-## Bio (ES)
-Soy desarrollador de videojuegos con 6 años de experiencia programando gameplay e IA. Me especializo en sistemas de IA (GOAP, árboles de comportamiento, pathfinding, percepción) y en construir experiencias pulidas en Unity y Unreal Engine. He llevado proyectos desde el prototipo hasta build jugable, incluyendo multijugador y VR.
+> 6+ años creando juegos con IA avanzada en Unity y Unreal
+> 6+ years building smart AI-driven games in Unity & Unreal
 
-## Bio (EN)
+## Links
+- Portfolio: https://dannizj.github.io/portafolio
+- LinkedIn: https://www.linkedin.com/in/dannizj/
+- CV: https://drive.google.com/file/d/1D9dfTLyvQxXC3Jz1TJuhaALPU7n1nWiq/view?usp=drive_link
+- Email: dannizj03@gmail.com
+
+## About
+- Experience: 6 years
+- Location: Remote / Latam
+- Availability: Available for hire
+
+### Bio (EN)
 I'm a video game developer with 6 years of experience programming gameplay and AI. I specialize in AI systems (GOAP, behaviour trees, pathfinding, perception) and building polished experiences in Unity and Unreal Engine. I've taken projects from prototype to playable build, including multiplayer and VR.
 
-## Habilidades
+### Bio (ES)
+Soy desarrollador de videojuegos con 6 años de experiencia programando gameplay e IA. Me especializo en sistemas de IA (GOAP, árboles de comportamiento, pathfinding, percepción) y en construir experiencias pulidas en Unity y Unreal Engine. He llevado proyectos desde el prototipo hasta build jugable, incluyendo multijugador y VR.
+
+## Skills
 Unity, C#, Unreal Engine, C++, AI, GOAP, Behaviour Trees, Pathfinding, Perception Systems, Multiplayer, Photon PUN2, VR, Gameplay Programming
 
-## Proyectos (11)
-
+## Projects (11)
 
 ### Dead Race / Dead Race
-- Motor: Unity
-- Lenguaje: C#
-- ES: Carrera con IA avanzada, enemigos inteligentes y planificación táctica.
-- EN: Racing game with advanced AI, smart enemies and tactical planning.
-- Herramientas: Unity, C#, AI, GOAP, Behaviour Trees, Pathfinding, Perception
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, AI, Unity, C#
+- Description (EN): Racing game with advanced AI, smart enemies and tactical planning.
+- Description (ES): Carrera con IA avanzada, enemigos inteligentes y planificación táctica.
+- Tools: Unity, C#, AI, GOAP, Behaviour Trees, Pathfinding, Perception
+- Video: https://youtu.be/nYdjjkVWmeQ
 
 ### Hospital / Hospital
-- Motor: Unity
-- Lenguaje: C#
-- ES: Simulación social y de vida con personajes dirigidos por IA GOAP.
-- EN: Social and life simulation with GOAP-driven smart characters.
-- Herramientas: Unity, C#, AI, GOAP
-- Descarga: https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, AI, Unity, C#
+- Description (EN): Social and life simulation with GOAP-driven smart characters.
+- Description (ES): Simulación social y de vida con personajes dirigidos por IA GOAP.
+- Tools: Unity, C#, AI, GOAP
+- Download: https://drive.google.com/file/d/1vsvExtmw7difDEdqZl0AaV5DZEOBVN3g/view
+- Video: https://youtu.be/gI0s1OeseaU
 
 ### Coop Game / Coop Game
-- Motor: Unreal Engine
-- Lenguaje: C++
-- ES: Juego cooperativo multijugador con enemigos inteligentes en Unreal.
-- EN: Cooperative multiplayer game with smart enemies in Unreal.
-- Herramientas: Unreal Engine, C++, Multiplayer, AI
-- Descarga: https://drive.google.com/file/d/1Lu2CWyaGLEi5SJByDbjwZdF1viJQo_o1/view
+- Engine: Unreal Engine
+- Language: C++
+- Tags: Game Developer, Programmer, AI, Unreal, C++
+- Description (EN): Cooperative multiplayer game with smart enemies in Unreal.
+- Description (ES): Juego cooperativo multijugador con enemigos inteligentes en Unreal.
+- Tools: Unreal Engine, C++, Multiplayer, AI
+- Download: https://drive.google.com/file/d/1Lu2CWyaGLEi5SJByDbjwZdF1viJQo_o1/view
+- Video: https://youtu.be/BmPDcbTc8pQ
 
 ### Battle Royal / Battle Royal
-- Motor: Unreal Engine
-- Lenguaje: C++
-- ES: Battle royale estilo PUBG con sistema de combate completo y física realista.
-- EN: PUBG-style battle royale with full combat system and realistic physics.
-- Herramientas: Unreal Engine, C++, Multiplayer, Physics
-- Descarga: https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view
+- Engine: Unreal Engine
+- Language: C++
+- Tags: Game Developer, Programmer, Unreal, C++, VFX
+- Description (EN): PUBG-style battle royale with full combat system and realistic physics.
+- Description (ES): Battle royale estilo PUBG con sistema de combate completo y física realista.
+- Tools: Unreal Engine, C++, Multiplayer, Physics
+- Download: https://drive.google.com/file/d/11Ck4EKvq-yL9szSbT2zXwoO5cxhMwCEI/view
+- Video: https://youtu.be/-qoHJP4h-X0
 
 ### Among Us / Among Us
-- Motor: Unity
-- Lenguaje: C#
-- ES: Clon multijugador con sincronización fluida de jugadores vía Photon PUN2.
-- EN: Multiplayer clone with smooth player sync & matchmaking via Photon PUN2.
-- Herramientas: Unity, C#, Multiplayer, Photon PUN2
-- Descarga: https://drive.google.com/file/d/1dHVNNDGfBbP3iUzw8O1ZJgVERv0bNOT8/view
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, Unity, C#
+- Description (EN): Multiplayer clone with smooth player sync & matchmaking via Photon PUN2.
+- Description (ES): Clon multijugador con sincronización fluida de jugadores vía Photon PUN2.
+- Tools: Unity, C#, Multiplayer, Photon PUN2
+- Download: https://drive.google.com/file/d/1dHVNNDGfBbP3iUzw8O1ZJgVERv0bNOT8/view
+- Video: https://youtu.be/vu_spDjuLbY
 
 ### Dapper-Dasher / Dapper-Dasher
-- Motor: C++
-- Lenguaje: C++
-- ES: Juego de supervivencia por oleadas construido 100% en C++.
-- EN: Wave-based survival game built 100% in C++.
-- Herramientas: C++, Gameplay Programming, AI
-- Descarga: https://drive.google.com/file/d/1IWenY_ajp4eajOUP54OsfcPAC6Q3Rdxf/view
+- Engine: C++
+- Language: C++
+- Tags: Game Developer, Programmer, AI, C++
+- Description (EN): Wave-based survival game built 100% in C++.
+- Description (ES): Juego de supervivencia por oleadas construido 100% en C++.
+- Tools: C++, Gameplay Programming, AI
+- Download: https://drive.google.com/file/d/1IWenY_ajp4eajOUP54OsfcPAC6Q3Rdxf/view
 
 ### Surviving Aliens / Surviving Aliens
-- Motor: Unity
-- Lenguaje: C#
-- ES: Juego de estrategia por turnos donde cada decisión cuenta para sobrevivir.
-- EN: Turn-based strategy game where every decision matters to survive.
-- Herramientas: Unity, C#, Strategy, AI
-- Descarga: https://nemorisgames.com/portfolio/surviving-aliens/
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, AI, Unity, C#
+- Description (EN): Turn-based strategy game where every decision matters to survive.
+- Description (ES): Juego de estrategia por turnos donde cada decisión cuenta para sobrevivir.
+- Tools: Unity, C#, Strategy, AI
+- Download: https://nemorisgames.com/portfolio/surviving-aliens/
 
-### Guardianes de los Animales / Guardians of the Animals
-- Motor: Unity
-- Lenguaje: C#
-- ES: Juego educativo y divertido para niños de 8-12 años sobre el medio ambiente.
-- EN: Educational and fun game for kids 8-12 about the environment.
-- Herramientas: Unity, C#, Educational, Gameplay Programming
-- Descarga: https://nemorisgames.com/portfolio/guardians-of-the-animals/
+### Guardians of the Animals / Guardianes de los Animales
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, Unity, C#, level design and lights
+- Description (EN): Educational and fun game for kids 8-12 about the environment.
+- Description (ES): Juego educativo y divertido para niños de 8-12 años sobre el medio ambiente.
+- Tools: Unity, C#, Educational, Gameplay Programming
+- Download: https://nemorisgames.com/portfolio/guardians-of-the-animals/
+- Video: https://youtu.be/OaWkSW11pag
 
 ### Mindfulness VR / Mindfulness VR
-- Motor: Unity
-- Lenguaje: C#
-- ES: Experiencia de mindfulness y relajación profunda en realidad virtual.
-- EN: Mindfulness experience for deep relaxation in virtual reality.
-- Herramientas: Unity, C#, VR, Sound Design
-- Descarga: https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, Unity, C#, level design and lights
+- Description (EN): Mindfulness experience for deep relaxation in virtual reality.
+- Description (ES): Experiencia de mindfulness y relajación profunda en realidad virtual.
+- Tools: Unity, C#, VR, Sound Design
+- Download: https://drive.google.com/file/d/1QQSndFpiYcgepTvCGyTXch7FdVBXIlOr/view
+- Video: https://youtu.be/tLwaLUbbRoI
 
 ### Covid Attack / Covid Attack
-- Motor: Unity
-- Lenguaje: C#
-- ES: Plataformas de acción 2D para frenar la pandemia saltando y desinfectando.
-- EN: 2D action-platformer to stop the pandemic by jumping and disinfecting.
-- Herramientas: Unity, C#, 2D, Gameplay Programming
-- Descarga: https://danni-zj.itch.io/covid-attack
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, Unity, C#, VFX
+- Description (EN): 2D action-platformer to stop the pandemic by jumping and disinfecting.
+- Description (ES): Plataformas de acción 2D para frenar la pandemia saltando y desinfectando.
+- Tools: Unity, C#, 2D, Gameplay Programming
+- Download: https://danni-zj.itch.io/covid-attack
+- Video: https://youtu.be/VTRf_bWLyj4
 
 ### Hungry Fox / Hungry Fox
-- Motor: Unity
-- Lenguaje: C#
-- ES: Aventura de acción con vista isométrica: un zorro rescatando gallinas.
-- EN: Isometric adventure-action game: a brave fox rescuing chickens.
-- Herramientas: Unity, C#, Isometric, Gameplay Programming
-- Descarga: https://github.com/Da-dot/Hungry-Fox
-
-## Contacto
-Email: dannizj03@gmail.com
-LinkedIn: https://www.linkedin.com/in/dannizj/
-CV: https://drive.google.com/file/d/1D9dfTLyvQxXC3Jz1TJuhaALPU7n1nWiq/view?usp=drive_link
+- Engine: Unity
+- Language: C#
+- Tags: Game Developer, Programmer, Unity, C#, level design and lights
+- Description (EN): Isometric adventure-action game: a brave fox rescuing chickens.
+- Description (ES): Aventura de acción con vista isométrica: un zorro rescatando gallinas.
+- Tools: Unity, C#, Isometric, Gameplay Programming
+- Download: https://github.com/Da-dot/Hungry-Fox
+- Video: https://youtu.be/Eapw1C3Fskk

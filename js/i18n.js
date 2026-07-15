@@ -72,7 +72,7 @@
       var stored = localStorage.getItem('lang');
       if (stored === 'es' || stored === 'en') return stored;
     } catch (e) {}
-    return 'es';
+    return 'en';
   }
 
   var I18N = {

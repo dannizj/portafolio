@@ -251,6 +251,9 @@
     document.body.style.overflow = 'hidden';
     var closeBtn = $('.modal-close', modal);
     if (closeBtn) closeBtn.focus();
+    if (window.history.replaceState) {
+      window.history.replaceState(null, '', '#' + pr.slug);
+    }
   }
   function metaRow(k, v) {
     return '<div class="meta-row"><span class="meta-k">' + esc(k) + '</span><span class="meta-v">' + esc(v) + '</span></div>';
@@ -260,6 +263,9 @@
     modal.setAttribute('aria-hidden', 'true');
     modalBody.innerHTML = '';
     document.body.style.overflow = '';
+    if (window.history.replaceState) {
+      window.history.replaceState(null, '', window.location.pathname + window.location.search);
+    }
   }
   modal.addEventListener('click', function (e) {
     if (e.target.hasAttribute('data-close')) closeModal();
@@ -322,5 +328,25 @@
     renderAll();
   });
 
+  function openProjectByHash() {
+    var hash = window.location.hash.slice(1);
+    if (!hash) return;
+    var nav = ['hero','about','skills','library','contact'];
+    if (nav.indexOf(hash) !== -1) return;
+    var pr = null;
+    for (var i = 0; i < DATA.projects.length; i++) {
+      if (DATA.projects[i].slug === hash) { pr = DATA.projects[i]; break; }
+    }
+    if (!pr) return;
+    currentFilter = 'all';
+    renderFilters();
+    renderLibrary();
+    var sec = document.getElementById('library');
+    if (sec) sec.scrollIntoView({ behavior: 'smooth' });
+    setTimeout(function () { openModal(pr); }, 400);
+  }
+
   renderAll();
+  openProjectByHash();
+  window.addEventListener('hashchange', openProjectByHash);
 })();

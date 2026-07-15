@@ -15,6 +15,9 @@ tagline_en: 6+ years building smart AI-driven games in Unity & Unreal
 
 experience: 6
 
+available_es: Disponible para contratación
+available_en: Available for hire
+
 location: Remote / Latam
 
 bio_es: Soy desarrollador de videojuegos con 6 años de experiencia programando gameplay e IA. Me especializo en sistemas de IA (GOAP, árboles de comportamiento, pathfinding, percepción) y en construir experiencias pulidas en Unity y Unreal Engine. He llevado proyectos desde el prototipo hasta build jugable, incluyendo multijugador y VR.
